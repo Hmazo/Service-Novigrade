@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.servicenovigrad">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".requestService"></activity>
+        <activity android:name=".ClientSearch" />
+        <activity android:name=".employee_edit_working_hours" />
+        <activity android:name=".EmployeBranchAddService" />
+        <activity android:name=".EmployeBranchService" />
+        <activity android:name=".EmployeRequestManager" />
+        <activity android:name=".EmployeHome" />
+        <activity android:name=".Admin_Modifier_Service" />
+        <activity android:name=".AdminServiceManager" />
+        <activity android:name=".AdminAddService" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".loginScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
